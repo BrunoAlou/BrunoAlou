@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Bruno O Programador</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aladin&display=swap" rel="stylesheet">
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/1ce0815a53.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
+    </script>
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <h3>Detalhes do Personagem</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Bruno O Programador</p>
+                <li>
+                    <a href="#">Personagem</a>
+                </li>
+                <li>
+                    <a href="#">História</a>
+                </li>
+                <li>
+                    <a href="#">Guildas</a>
+                </li>
+                <li>
+                    <a href="#">Feitos</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn">
+                        <i class="fas fa-align-left"></i>
+                        <span>Detalhes do Personagem</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <main class="container-fluid">
+                <div class="row">
+                    <div class="perfil col">
+                        <div class="col-md-4">
+                            <img alt="Avatar Bruno" class="avatar" src="avatar.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="prf">
+                                <div>
+                                    <p>Nome:</p>
+                                    <h6>Bruno Alves Lourenço</h6>
+                                </div>
+                                <div>
+                                    <p>XP:</p>
+                                    <h6>23 anos</h6>
+                                </div>
+                                <div class="classe">
+                                    <p>Classe:</p>
+                                    <div class="row">
+                                        <img alt="Programador Classe" class="icon-imgs" src="programmer-icon-16.jpg">
+                                        <h6 class="textshow">Programador</h6>
+                                    </div>
+
+                                    <ul>
+                                        <li class="type btn btn-outline-success">Iniciante</li>
+                                        <li class="type btn btn-success">Junior</li>
+                                        <li class="type btn btn-outline-success">Pleno</li>
+                                        <li class="type btn btn-outline-success">Senior</li>
+                                    </ul>
+                                </div>
+
+                                <div class="atributos">
+                                    <p>Atributos:</p>
+                                    <p>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Destreza
+                                        </a>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Inteligência
+                                        </a>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Força
+                                        </a>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Carisma
+                                        </a>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Aparência
+                                        </a>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Percepção
+                                        </a>
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                          Sorte
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                        </div>
+                                    </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="skills col">
+                        <p>Especializações:</p>
+                        <ul class="row">
+                            <div class="code col">
+                                <li>Code
+                                    <i class="fas fa-code"></i>
+                                </li>
+                                <ul>
+                                    <li>
+                                        <i class="fab fa-php fa-5x"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-python fa-5x"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-js-square fa-5x"></i>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="version col">
+                                <li>Versionamento
+                                    <i class="fas fa-code-branch"></i>
+                                </li>
+                                <ul>
+                                    <li>
+                                        <i class="fab fa-github fa-5x"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-gitlab fa-5x"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-bitbucket fa-5x"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="projects col">
+                                <li>Projetos
+                                    <i class="fas fa-project-diagram"></i>
+
+                                </li>
+                                <ul>
+                                    <li>ITIL
+
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="style col">
+                                <li>Estilização
+                                    <i class="fas fa-paint-brush"></i>
+                                </li>
+                                <ul>
+                                    <li>
+                                        <i class="fab fa-html5 fa-5x"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-css3-alt fa-5x"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="frame col">
+                                <li>FrameWorks
+                                    <i class="fas fa-hourglass-start"></i>
+                                </li>
+                                <ul>
+                                    <li>Django</li>
+                                </ul>
+                            </div>
+                        </ul>
+                        <div class="Hobbies">
+                            <p>Detalhes:</p>
+                            <ul class="row">
+                                <ul class="col-md-4">Equipamento:
+                                    <li>Fones de Ouvido</li>
+                                    <li>Oculos</li>
+                                    <li>Caneca com Café</li>
+                                </ul>
+                                <ul class="col-md-4">Virtudes:
+                                    <ul>
+                                        <li class="textshow">Geek
+                                            <h6>99</h6>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="textshow">Nerd
+                                            <h6>99</h6>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="textshow">Otaku
+                                            <h6>99</h6>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="textshow">Gamer
+                                            <h6>99</h6>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="textshow">Leitor
+                                            <h6>99</h6>
+                                        </li>
+                                    </ul>
+                                </ul>
+                                <ul class="col-md-4">Fraquesas:
+                                    <li>Strogonofe de Franfo</li>
+                                    <li>Filmes de Cachorro</li>
+                                </ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+        </main>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function() {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+
+
+</html>
