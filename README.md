@@ -1,6 +1,9 @@
-# BrunoAlou
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/Brunoalou/README.md)
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Brunoalou/README.en.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Brunoalou/README.es.md)
 
-Estrutura de site simples estruturado em template padrão do Bootstrap Studio
+Desenvolvedor Web desde 2018. 
+
+
+  <img align="left" height="215em" alt="BrunoAlou's github stats" src="https://github-readme-stats.vercel.app/api?username=Brunoalou&theme=chartreuse-dark&show_icons=true" />
+  <img align="right" height="215em" alt="BrunoAlou's top-languages stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brunoalou&theme=chartreuse-dark" />
