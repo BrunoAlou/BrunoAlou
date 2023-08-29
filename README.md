@@ -1,6 +1,6 @@
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/Brunoalou/README.md)
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Brunoalou/README.en.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Brunoalou/README.es.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/BrunoAlou/BrunoAlou/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/BrunoAlou/BrunoAlou/blob/master/README.en.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/BrunoAlou/BrunoAlou/blob/master/README.es.md)
 
 Desenvolvedor Web desde 2018. 
 
